@@ -23,14 +23,14 @@ End the program and close the output image windows.
 ### Register Number: 212221230057
 
 ### i) To Read,display the image
-```
+```py
 import cv2
 img=cv2.imread("img.jpg",1)
 cv2.imshow('212221230057 Meenakshi M',img)
 cv2.waitKey(0)
 ```
 ### ii) To write the image
-```
+```py
 import cv2 as cv
 capture=cv.imread("img.jpg")
 cv.imwrite("img.jpg",capture)
@@ -38,13 +38,13 @@ cv.imshow("212221230057 Meenakshi",capture)
 cv.waitKey(0)
 ```
 ### iii) Find the shape of the Image python3
-```
+```py
 import cv2
 img=cv2.imread("img.jpg",1)
 print(img.shape)
 ```
 ### iv) To access rows and columns python3
-```
+```py
 import random
 import cv2 as cv
 capture=cv.imread("img.jpg")
@@ -56,7 +56,7 @@ cv.waitKey(0)
 
 ```
 ### v) To cut and paste portion of image python3
-```
+```py
 import cv2
 capture=cv2.imread("img.jpg",1)
 tag=capture[260:280,100:300]
